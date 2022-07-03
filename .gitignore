@@ -1,6 +1,6 @@
 */__pycache__
 cache/*
 configs/*
-viz.png
+./viz.png
 !configs/template.py.template
 !configs/__init__.py
