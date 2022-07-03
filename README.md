@@ -35,4 +35,4 @@ python main.py --config configs/example.py
 ```
 
 就会生成图片`viz.png`
-![examples/viz.png]
+![](examples/viz.png)
