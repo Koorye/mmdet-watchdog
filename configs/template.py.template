@@ -1,0 +1,14 @@
+# root用于定位到工作目录，支持本地和远程目录
+# 本地：root = '/where/root/path/is' or 'C:/where/root/path/is'
+# 远程：root = 'username:password@ip:port:/where/root/path/is'
+root = 'xxx'
+
+class Config(object):
+    logs = [
+        dict(
+            name='model1',
+            dir=root + 'model1/'),
+        dict(
+            name='model2',
+            dir=root + 'model2/'),
+        ...]

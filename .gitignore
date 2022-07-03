@@ -1,0 +1,6 @@
+*/__pycache__
+cache/*
+configs/*
+viz.png
+!configs/template.py.template
+!configs/__init__.py
